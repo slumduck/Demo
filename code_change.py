@@ -5,7 +5,8 @@
 
 import chardet
 import sys
-
+# reload(sys)
+# sys.setdefaultencoding('utf-8')
 '''
 获取字符串的编码类型
 对于文件获取一次就可以了
